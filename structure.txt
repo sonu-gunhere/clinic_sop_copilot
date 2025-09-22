@@ -1,0 +1,22 @@
+clinic-sop-copilot/
+│── backend/
+│   │── main.py                # FastAPI entry
+│   │── routers/
+│   │   │── sop.py             # SOP search & read APIs
+│   │   │── web.py             # External web search API
+│   │   │── cite.py            # Citation validation
+│   │── services/
+│   │   │── sop_service.py     # Handles SOP indexing & retrieval
+│   │   │── web_service.py     # Calls Serper API
+│   │   │── cite_service.py    # Citation validator
+│   │── sops/                  # SOP markdown files
+│   │── tests/                 # Unit tests
+│
+│── frontend/
+│   │── templates/
+│   │   │── index.html         # Bootstrap5 UI
+│   │── static/
+│       │── style.css
+│
+│── requirements.txt
+│── README.md
